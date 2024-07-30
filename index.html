@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>ADAPTIVE</title>
+  </head>
+
+  <script>
+    function showAlert() {
+      alert("Statistics not found");
+    }
+  </script>
+
+  <body>
+    <header>
+      <div class="header-wrapper">
+        <a href="#">
+          <img class="img-logo" src="./Assets/img/logo.svg" alt="logo" />
+        </a>
+
+        <button class="loginButton" id="loginBtn">Button</button>
+
+        <script>
+          document.getElementById("loginBtn").onclick = function () {
+            window.location.href =
+              "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley";
+          };
+        </script>
+      </div>
+    </header>
+
+    <section class="content-wrapper">
+      <div class="content">
+        <h1 class="title">HTML + CSS. APPLICATION STRUCTURE</h1>
+
+        <div class="card-wrapper">
+          <div class="card">
+            <h2 class="card-title">
+              HTML + CSS<br />
+              Application Structure
+            </h2>
+            <img class="card-img" src="./Assets/img/img-1.svg" alt="" />
+            <p class="card-text">
+              A web application is built using <span>HTML</span> for creating
+              the structure and <span>CSS</span> for styling. HTML defines the
+              basic elements of the page, such as headings and paragraphs, while
+              CSS manages their appearance, specifying colors, fonts, and
+              layout, making the application user-friendly and visually
+              appealing.
+            </p>
+          </div>
+
+          <div class="card">
+            <h2 class="card-title">
+              STYLING<br />
+              HTML ELEMENTS
+            </h2>
+            <img class="card-img" src="./Assets/img/img-2.svg" alt="" />
+            <p class="card-text">
+              Styling of HTML elements is done with <span>CSS</span>, which
+              defines the appearance of elements such as colors, fonts, and
+              margins. <span>HTML</span> creates the structure of a web page,
+              while <span>CSS</span> is responsible for its styling, enhancing
+              the visual perception and functionality of the site.
+            </p>
+          </div>
+
+          <div class="card">
+            <h2 class="card-title">
+              RESPONSIVE<br />
+              MEDIA QUERIES
+            </h2>
+            <img class="card-img" src="./Assets/img/img-3.svg" alt="" />
+            <p class="card-text">
+              Adaptive technologies have been applied on this web application to
+              ensure that the application looks good on tablets and mobile
+              phones. The
+              <span>flex-wrap</span> property and
+              <span>media queries</span> have been used to create a responsive
+              design.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-wrapper-">
+        <ul class="navigation">
+          <li class="navigation-item">
+            <a href="">
+              <img src="./Assets/img/home-icon.svg" alt="" />
+              Home
+            </a>
+          </li>
+
+          <li class="navigation-item">
+            <a href="https://github.com/evs8konik" target="blank">
+              <img src="./Assets/img/computer-icon.svg" alt="" />
+              All Project
+            </a>
+          </li>
+
+          <li class="navigation-item">
+            <a href="#" onclick="showAlert()">
+              <img src="./Assets/img/sandbox-icon.svg" alt="" />
+              Statistic
+            </a>
+          </li>
+
+          <li class="navigation-item">
+            <a
+              href="https://www.google.by/maps/place/%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE,+%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+%D0%91%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C/@53.6841076,23.850851,12z/data=!3m1!4b1!4m6!3m5!1s0x46dfd64beac55d1d:0xf013fd26569718c0!8m2!3d53.6687634!4d23.8222673!16zL20vMDE1OWZm?entry=ttu"
+              target="blank"
+            >
+              <img src="./Assets/img/map-pointer-icon.svg" alt="" />
+              Contacts
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
